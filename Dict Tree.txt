@@ -1,0 +1,33 @@
+office-inventory/
+├── config/
+│   ├── database.php
+│   └── config.php
+├── models/
+│   ├── User.php
+│   ├── Equipment.php
+│   ├── Category.php
+│   ├── Assignment.php
+│   ├── VendorReturn.php
+│   ├── Ticket.php
+│   └── AuditLog.php
+├── controllers/
+│   ├── AuthController.php
+│   ├── EquipmentController.php
+│   ├── TicketController.php
+│   └── VendorController.php
+├── middleware/
+│   ├── AuthMiddleware.php
+│   └── PermissionMiddleware.php
+├── utils/
+│   ├── Session.php
+│   ├── Validator.php
+│   └── Helper.php
+└── index.php
+
+office-inventory/
+├── config/
+├── models/
+├── controllers/
+├── views/
+├── index.php
+└── logout.php
